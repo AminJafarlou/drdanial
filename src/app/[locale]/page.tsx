@@ -1,5 +1,6 @@
+import { HeroSection } from '@/components/HeroSection'
 import { WebHeader } from '@/components/WebHeader'
-import { Locale, useTranslations } from 'next-intl'
+import { Locale } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
 import { use } from 'react'
 
@@ -9,11 +10,10 @@ export default function IndexPage({ params }: PageProps<'/[locale]'>) {
   // Enable static rendering
   setRequestLocale(locale as Locale)
 
-  const t = useTranslations('IndexPage')
-
   return (
-    <div>
+    <div style={{ direction: locale === 'fa' ? 'rtl' : 'ltr' }}>
       <WebHeader />
+      <HeroSection />
     </div>
   )
 }
