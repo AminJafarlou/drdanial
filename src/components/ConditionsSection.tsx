@@ -54,11 +54,11 @@ export const ConditionsSection = () => {
       </div>
 
       <div className="main-container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {conditions.map((condition, index) => (
             <div
               key={index}
-              className="condition-card p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300"
+              className="bg-white p-6 rounded-xl"
             >
               <div className="text-4xl mb-4">{condition.icon}</div>
               <h3 className="text-sky-800 text-l font-semibold mb-2">{condition.title}</h3>
