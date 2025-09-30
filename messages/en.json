@@ -5,9 +5,38 @@
     "conditions": "Conditions",
     "contact": "Contact",
     "getInTouch": "Get in Touch",
+
     "heroSubHeader": "Experience You Can Trust. Care You Deserve",
     "heroMainHeader": "Private, Expert Urology Care",
     "heroDesc1": "Private & discreet urology consultations for men’s health in Tehran, led by a highly experienced Consultant Urological Surgeon.",
-    "heroDesc2": "With over 8 years of expertise in urology, Dr. Danial Jafarlou provides compassionate, confidential care for prostate, kidney, bladder, and testes, including sexual health issues."
+    "heroDesc2": "With over 8 years of expertise in urology, Dr. Danial Jafarlou provides compassionate, confidential care for prostate, kidney, bladder, and testes, including sexual health issues.",
+
+    "aboutSubheader": "Trusted Urological Expertise",
+    "aboutMainHeader": "About Dr. Danial Jafarlou",
+    "aboutDesc1": "Danial Jafarlou is a highly respected Consultant Urological Surgeon with specialist interests in urological cancers and male sexual & fertility problems.",
+    "aboutDesc2": "He has practiced urology for more than 3 decades as consultant, training at leading institutions including Oxford (UK) with a sabbatical at the Memorial Sloan Kettering (USA).",
+    "aboutDesc3": "As a senior consultant who has served at renowned hospitals (currently seeing patients at HCA’s The Harley Street Clinic, Princess Grace Hospital in London), he is dedicated to delivering the highest quality care.",
+    "aboutDesc4": "Patients can feel confident knowing they are treated by a published expert (90+ research and clinical papers) and even a textbook editor of urological cancers – experience that translates into advanced, effective treatments for his patients.",
+
+    "conditionsSubheader": "Conditions Treated",
+    "conditionsMainHeader": "Comprehensive Urological Care",
+
+    "conditionsTitle1": "Prostate",
+    "conditionsDesc1": "Care for enlarged prostate (BPH), prostatitis, prostate cancer, and troublesome “waterworks” symptoms (difficulty or frequent urination).",
+
+    "conditionsTitle2": "Bladder Health (male and female)",
+    "conditionsDesc2": "Urinary infections, including cystitis and pyelonephritis (kidney infection), stones, bladder tumours.",
+
+    "conditionsTitle3": "Male Sexual Health",
+    "conditionsDesc3": "Confidential treatment for erectile dysfunction, penile problems (e.g. Peyronie’s disease), and related issues affecting intimacy and quality of life. Ejaculatory problems (retrograde and anejaculation).",
+
+    "conditionsTitle4": "Male Fertility & Testicular Issues",
+    "conditionsDesc4": "Investigation and management of male infertility, testicular pain or lumps, inflammation of testis, undescended testes, and testicular cancer. Male birth control by scalpel less (or no scalpel) vasectomy and recanalisation.",
+
+    "conditionsTitle5": "Kidney & Urinary Tract",
+    "conditionsDesc5": "Management of kidney stones, blood in urine, urinary infections, and other urinary tract conditions.",
+
+    "conditionsTitle6": "Second Opinion",
+    "conditionsDesc6": "To ascertain the treatment you are receiving or to understand more about how the treatment is planned."
   }
 }

@@ -1,3 +1,6 @@
+import { AboutSection } from '@/components/AboutSection'
+import { ConditionsSection } from '@/components/ConditionsSection'
+import { CoverImageSection } from '@/components/CoverImageSection'
 import { HeroSection } from '@/components/HeroSection'
 import { WebHeader } from '@/components/WebHeader'
 import { Locale } from 'next-intl'
@@ -14,6 +17,9 @@ export default function IndexPage({ params }: PageProps<'/[locale]'>) {
     <div style={{ direction: locale === 'fa' ? 'rtl' : 'ltr' }}>
       <WebHeader />
       <HeroSection />
+      <AboutSection />
+      <CoverImageSection />
+      <ConditionsSection />
     </div>
   )
 }
