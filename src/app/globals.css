@@ -2,8 +2,11 @@
 
 :root {
   --background: #ffffff;
-    --foreground: #151515;
-    --link: #1b2978;
+  --foreground: #151515;
+  --primary: #1b2978;
+  --primaryLight: #0fbcce;
+  --secondary: #8d96ad;
+  --text-gray: #919399;
 }
 
 body {
@@ -12,14 +15,37 @@ body {
 }
 
 .header-link {
-  color: var(--link);
+  color: var(--primary);
   :hover {
     color: var(--foreground);
   }
 }
 
+.section-header {
+  color: var(--primary);
+  font-size: 44px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+}
+.section-header span {
+  color: var(--secondary);
+}
+.section-subheader {
+  color: var(--primary);
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+}
+.description-text {
+  color: var(--text-gray);
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+}
+
 .hero-section {
-  background-color: #F9F9FF;
+  background-color: #f9f9ff;
 }
 
 .main-container {
@@ -32,5 +58,16 @@ body {
 }
 
 .conditions-section {
-  background-color: #F9F9FF;
+  background-color: #f9f9ff;
+}
+
+.why-choose-section {
+  position: relative;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #00083c 0%, #07145c 100%);
+}
+
+.stepper-indicator {
+  @apply flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center z-10;
+  background-color: var(--primaryLight);
 }

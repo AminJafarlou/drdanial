@@ -37,6 +37,34 @@
     "conditionsDesc5": "Management of kidney stones, blood in urine, urinary infections, and other urinary tract conditions.",
 
     "conditionsTitle6": "Second Opinion",
-    "conditionsDesc6": "To ascertain the treatment you are receiving or to understand more about how the treatment is planned."
+    "conditionsDesc6": "To ascertain the treatment you are receiving or to understand more about how the treatment is planned.",
+
+    "exceptionalCareMainHeader": "Each patient’s situation ",
+    "exceptionalCareMainHeaderSpan": "is unique",
+    "exceptionalCareDesc1": "Dr. Jafarlou provides personalized treatment plans tailored to individual needs, whether it’s a minor condition or a complex urological cancer.",
+    "exceptionalCareDesc2": "His focus on minimally invasive techniques means that patients often experience a faster recovery and less discomfort.",
+
+    "whyChooseDrJafarlou": "Why Choose Dr. Jafarlou?",
+    "whyChooseMainHeader": "Exceptional care, ",
+    "whyChooseMainHeaderSpan": "with confidence",
+    "whyChooseDesc1": "Choosing the right specialist is crucial. Here’s why patients trust Mr. Jafarlou with their urological health:",
+    "whyChoosePoint1Title": "Unmatched Experience",
+    "whyChoosePoint1Desc": "With over 35 years of experience in urology, Dr. Jafarlou’s depth of experience is rare to see. He has successfully treated thousands of patients, from routine cases to the most complex cases.",
+    "whyChoosePoint2Title": "Leading Expertise",
+    "whyChoosePoint2Desc": "A pioneer in his field – he served as lead urological cancer surgeon at a major London NHS Trust for nearly a decade and stays at the forefront of advances in urology. He was trained in cutting-edge techniques both in the UK and internationally, ensuring you receive up-to-date care.",
+    "whyChoosePoint3Title": "Patient Trust & Satisfaction",
+    "whyChoosePoint3Desc": "Dr. Jafarlou is highly rated by his patients, as reflected in a 5.0/5.0 patient trust score on Doctify. He is known for his warm, reassuring bedside manner and clear communication.",
+    "whyChoosePoint4Title": "Professional Credentials",
+    "whyChoosePoint4Desc": "Fellow of the Royal College of Surgeons (FRCS Urol) and European Board of Urology (FEBU), with memberships in key urological associations and PhD on bladder cancer. He has published over 90 papers and authored a textbook, demonstrating a commitment to advancing urological science, which benefits his patients through evidence-based practice. He actively contributes to Macmillan education and guidebooks for genito-urinary cancer patients.",
+
+    "takeTheFirstStep": "Take the First Step",
+    "formSectionHeader": "Contact and ",
+    "formSectionHeaderSpan": "Appointment",
+    "formSectionDesc1": "Ready to address your urological concern? Help is just one call or click away.",
+    "formSectionDesc2": "We encourage you to reach out with any questions or to schedule a private consultation.",
+    "formSectionDesc3": "All enquiries are handled with the utmost confidentiality – we understand the importance of discretion in men’s health.",
+    "call": "Call",
+    "or": "or use this form to connect with his private secretary.",
+    "email": "Email"
   }
 }
