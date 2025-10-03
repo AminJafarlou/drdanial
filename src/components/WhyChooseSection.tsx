@@ -21,7 +21,7 @@ export const WhyChooseSection = () => {
 
       <div className="h-[280px] md:h-[300px]" />
 
-      <div className="main-container mx-auto flex flex-col md:flex-row items-center md:items-start justify-between px-4 gap-8">
+      <div className="main-container mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
         <div className="flex-2">
           <div className='text-white mb-2 font-semibold text-lg'>
             {t('whyChooseDrJafarlou')}

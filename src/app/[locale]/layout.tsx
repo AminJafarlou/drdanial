@@ -21,19 +21,21 @@ export const metadata: Metadata = {
 }
 
 type Props = {
-  children: React.ReactNode;
-  params: Promise<{locale: string}>;
-};
+  children: React.ReactNode
+  params: Promise<{ locale: string }>
+}
 
-export default async function LocaleLayout({children, params}: Props) {
+export default async function LocaleLayout({ children, params }: Props) {
   // Ensure that the incoming `locale` is valid
-  const {locale} = await params;
+  const { locale } = await params
   if (!hasLocale(routing.locales, locale)) {
-    notFound();
+    notFound()
   }
 
+  const isRTL = locale === 'fa'
+
   return (
-    <html lang="en">
+    <html lang={locale} dir={isRTL ? 'rtl' : 'ltr'}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
