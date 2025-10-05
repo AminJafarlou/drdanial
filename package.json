@@ -1,13 +1,15 @@
 {
   "name": "dr-danial",
   "version": "0.1.0",
+  "homepage": "https://aminjafarlou.github.io/drdanial",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "deploy": "next build && gh-pages -d out"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out --nojekyll"
   },
   "dependencies": {
     "lucide-react": "^0.544.0",
