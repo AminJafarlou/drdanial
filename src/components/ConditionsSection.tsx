@@ -48,7 +48,7 @@ export const ConditionsSection = () => {
         <div style={{ fontSize: '14px' }} className="font-bold text-sky-800">
           {t('conditionsSubheader')}
         </div>
-        <div style={{ fontSize: '44px' }} className="mb-4 font-bold text-sky-900">
+        <div style={{ fontSize: '32px' }} className="mb-4 font-bold text-sky-900">
           {t('conditionsMainHeader')}
         </div>
       </div>

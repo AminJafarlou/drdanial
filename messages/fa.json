@@ -65,6 +65,22 @@
     "formSectionDesc3": "تمامی پرسش‌ها و درخواست‌ها با نهایت محرمانگی رسیدگی می‌شوند – ما اهمیت رازداری در سلامت مردان را درک می‌کنیم.",
     "call": "تماس",
     "or": "یا از این فرم برای ارتباط با منشی خصوصی او استفاده کنید.",
-    "email": "ایمیل"
+    "email": "ایمیل",
+
+    "footerDesc": "مشاوره‌های خصوصی و محرمانه اورولوژی برای سلامت مردان در لندن.",
+    "links": "لینک‌ها",
+    "selectLanguage": "انتخاب زبان"
+  },
+  "form": {
+    "nameLabel": "نام",
+    "namePlaceholder": "نام شما",
+    "emailLabel": "ایمیل",
+    "emailPlaceholder": "you@example.com",
+    "phoneLabel": "تلفن",
+    "phonePlaceholder": "+98 9xx xxx xxxx",
+    "messageLabel": "پیام",
+    "messagePlaceholder": "پیام خود را بنویسید...",
+    "sendButton": "ارسال پیام",
+    "sendingButton": "در حال ارسال..."
   }
 }

@@ -71,3 +71,12 @@ body {
   @apply flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center z-10;
   background-color: var(--primaryLight);
 }
+
+.footer-section {
+  background-color: #00083c;
+  background-image: url('/decor-gradient.svg');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+}

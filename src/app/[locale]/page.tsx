@@ -1,9 +1,10 @@
 import { AboutSection } from '@/components/AboutSection'
 import { ConditionsSection } from '@/components/ConditionsSection'
 import { CoverImageSection } from '@/components/CoverImageSection'
+import { Footer } from '@/components/Footer'
 import { FormSection } from '@/components/FormSection'
+import { Header } from '@/components/Header'
 import { HeroSection } from '@/components/HeroSection'
-import { WebHeader } from '@/components/WebHeader'
 import { WhyChooseSection } from '@/components/WhyChooseSection'
 import { Locale } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
@@ -17,13 +18,20 @@ export default function IndexPage({ params }: PageProps<'/[locale]'>) {
 
   return (
     <div style={{ direction: locale === 'fa' ? 'rtl' : 'ltr' }}>
-      <WebHeader />
+      <Header />
+
       <HeroSection />
       <AboutSection />
       <CoverImageSection />
       <ConditionsSection />
       <WhyChooseSection />
       <FormSection />
+
+      <Footer />
     </div>
   )
+}
+
+export function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'fa' }]
 }

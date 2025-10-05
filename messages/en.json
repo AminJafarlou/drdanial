@@ -65,6 +65,22 @@
     "formSectionDesc3": "All enquiries are handled with the utmost confidentiality – we understand the importance of discretion in men’s health.",
     "call": "Call",
     "or": "or use this form to connect with his private secretary.",
-    "email": "Email"
+    "email": "Email",
+
+    "footerDesc": "Private & discreet urology consultations for men’s health in Tehran.",
+    "links": "Links",
+    "selectLanguage": "Select Language"
+  },
+  "form": {
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "+98 9xx xxx xxxx",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message...",
+    "sendButton": "Send Message",
+    "sendingButton": "Sending..."
   }
 }
